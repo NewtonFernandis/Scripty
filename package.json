@@ -15,15 +15,15 @@
     "keybindings": [
       {
         "command": "scripty.showScripts",
-        "key": "ctrl+shift+k",
-        "mac": "cmd+shift+k",
+        "key": "ctrl+shift+l",
+        "mac": "cmd+shift+l",
         "when": "editorTextFocus"
       }
     ],
     "commands": [
       {
         "command": "scripty.showScripts",
-        "title": "Show Scripts"
+        "title": "Scripty: Show Scripts"
       }
     ]
   },

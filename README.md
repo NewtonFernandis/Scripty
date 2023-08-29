@@ -1,71 +1,45 @@
-# scripty README
-
-This is the README for your extension "scripty". After writing up a brief description, we recommend including the following sections.
-
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Scripty is a powerful VSCode extension that streamlines the execution of package.json scripts. It simplifies your development workflow by providing an intuitive dropdown menu to run scripts effortlessly.
 
-For example if there is an image subfolder under your extension project workspace:
+![Scripty in Action](src/assets/ScriptyDropdown.png)
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- **Effortless Execution:** Run package.json scripts with a single click, eliminating the need for manual command entry.
+- **Intuitive Dropdown:** Access a user-friendly dropdown menu that lists all your package.json scripts for easy selection.
+- **Time-Saving:** Enhance your productivity by executing scripts directly within the editor.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+There are no specific requirements or dependencies for this extension. Simply install it to get started.
 
-## Extension Settings
+## Keyboard Shortcuts
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+Scripty provides convenient keyboard shortcuts to quickly access its functionality:
 
-For example:
+- **Mac**: Press `Cmd + Shift + l`
+- **Windows**: Press `Ctrl + Shift + l`
 
-This extension contributes the following settings:
+## Using Command Palette
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+You can also use the Command Palette to access Scripty's functionality:
 
-## Known Issues
+1. Press `Cmd + Shift + P` (Mac) or `Ctrl + Shift + P` (Windows/Linux) to open the Command Palette.
+2. Type in "Scripty: Show Scripts" and select the corresponding command from the list.
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
+This will open the Scripty dropdown menu, allowing you to execute package.json scripts with ease.
 
 ### 1.0.0
 
-Initial release of ...
+Initial release of Scripty.
 
-### 1.0.1
+<!-- ### 1.0.1
 
-Fixed issue #.
+Fixed issue #123: Description of the issue or bug that was fixed.
 
 ### 1.1.0
 
-Added features X, Y, and Z.
+Added features X, Y, and Z to enhance user experience. -->
 
 ---
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
