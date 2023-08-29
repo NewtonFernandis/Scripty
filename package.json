@@ -2,7 +2,7 @@
   "name": "scripty",
   "displayName": "Scripty",
   "description": "Effortless Package.json Script Executor",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.81.0"
   },
