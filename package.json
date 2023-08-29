@@ -12,6 +12,14 @@
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
+    "keybindings": [
+      {
+        "command": "scripty.showScripts",
+        "key": "ctrl+shift+k",
+        "mac": "cmd+shift+k",
+        "when": "editorTextFocus"
+      }
+    ],
     "commands": [
       {
         "command": "scripty.showScripts",

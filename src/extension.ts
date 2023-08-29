@@ -22,7 +22,7 @@ function readPackageJsonScripts(): Array<Scripts> {
     const packageJson = JSON.parse(packageJsonData)
     const scripts = packageJson.scripts || {}
 
-    const result: Scripts[] = Object.entries(scripts).map(([name, script]) => ({
+    const result = Object.entries(scripts).map(([name, script]) => ({
       name,
       script,
     })) as Scripts[]
@@ -71,5 +71,4 @@ export function activate(context: vscode.ExtensionContext) {
   context.subscriptions.push(disposable)
 }
 
-// This method is called when your extension is deactivated
 export function deactivate() {}
